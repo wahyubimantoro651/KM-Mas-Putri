@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Kode CSS */
+body {
+    font: 16px/20px arial, sans-serif;
+    background-color: #074799;
+    color: #E1FFBB;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: #001A6E;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 30px 20px 10px 20px;
+    background-color: #009990;
+}
+
+.header .judul {
+    font-family: "Rammetto One", sans-serif;
+    color: #E1FFBB;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E1FFBB;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: #E1FFBB;
+    color: #001A6E;
+}
+
+.hero {
+    height: 450px;
+    margin-top: 100px;
+    background-image: url(img/hero.jpeg);
+    background-size: cover;
+    background-position: 0 -250px;
+    border-top: 10px solid #001A6E;
+    border-bottom: 10px solid #009990;
+}
+
+.main {
+    width: 740px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-family: "Concert One", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis a {
+    color: #009990;
+    text-decoration: none;
+}
+
+.main .penulis a:hover {
+    background-color: #E1FFBB;
+    color: #001A6E;
+}
+
+.main .penulis {
+    font-size: 11px;
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 400px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    box-sizing: border-box;
+    background-color: #009990;
+}
+
+.sidebar .about {
+    margin-bottom: 10px;
+}
+
+.sidebar .about h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar .about img {
+    width: 90px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar .about p {
+    font: 14px/18px arial;
+}
+
+.sidebar .sosmed img {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar .sosmed p {
+    font: 12px/30px arial;
+}
+
+.sidebar .sosmed a {
+    text-decoration: none;
+    color: #E1FFBB;
+}
+
+.sidebar .sosmed a:hover {
+    background-color: #E1FFBB;
+    color: #001A6E;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #009990;
+    padding: 10px;
+}
+
+.footer .copyright {
+    color: #E1FFBB;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* script clearfix */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
